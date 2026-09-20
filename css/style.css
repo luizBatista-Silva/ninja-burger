@@ -325,6 +325,11 @@ a.btn-primary, a.btn-ghost {
     text-align: center;
   }
 
+  .hero h1 {
+    font-size: clamp(40px, 11vw, 64px);
+    overflow-wrap: break-word;
+  }
+
   .hero-content {
     max-width: 100%;
   }
@@ -1150,6 +1155,28 @@ a.btn-primary, a.btn-ghost {
     grid-template-columns: 1fr;
     padding: 0 24px;
     gap: 32px;
+    text-align: center;
+  }
+
+  .footer-brand {
+    align-items: center;
+  }
+
+  .footer-col ul {
+    align-items: center;
+  }
+
+  .footer-col ul.hours {
+    align-items: stretch;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .order-btn {
+    align-items: center;
+    text-align: center;
   }
 
   .map-link {
